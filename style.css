@@ -1,0 +1,43 @@
+body{
+  /* background-color:rgb(164, 40, 40); */
+  background-image: url(/A-photos-3988952.jpg);
+  background-repeat: no-repeat;
+}
+
+header{
+  text-align: center;
+  color: aqua;
+  font-size: 95px;
+}
+li{
+  text-align: center;
+  color: orange;
+ list-style: none;
+ font-size: 40px;
+ font-style: italic;
+ margin: 10px;
+ /* padding-left: 200px; */
+}
+h1{
+  color: rgb(99, 15, 15);
+  font-size: 50px;
+}
+
+#item-input{
+  font-size: 15px;
+}
+#add-button{
+  color:aqua;
+  background-color: rgb(255, 0, 0);
+
+}
+#clear-button{
+  color: rgb(230, 5, 24);
+  background-color:yellowgreen;
+}
+::placeholder{
+  color: red;
+}
+main{
+  text-align: center;
+}
