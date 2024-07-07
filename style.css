@@ -1,43 +1,53 @@
-body{
+body {
   /* background-color:rgb(164, 40, 40); */
   background-image: url(/A-photos-3988952.jpg);
   background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-position: center;
 }
 
-header{
+header {
   text-align: center;
   color: aqua;
   font-size: 95px;
 }
-li{
+
+li {
   text-align: center;
-  color: orange;
- list-style: none;
- font-size: 40px;
- font-style: italic;
- margin: 10px;
- /* padding-left: 200px; */
+  color: cyan;
+  list-style: none;
+  font-size: 30px;
+  font-style: italic;
+  margin: 10px;
+
 }
-h1{
+
+h1 {
   color: rgb(99, 15, 15);
   font-size: 50px;
 }
 
-#item-input{
+#item-input {
   font-size: 15px;
 }
-#add-button{
-  color:aqua;
+
+#add-button {
+  color: aqua;
   background-color: rgb(255, 0, 0);
 
 }
-#clear-button{
+
+#clear-button {
   color: rgb(230, 5, 24);
-  background-color:yellowgreen;
+  background-color: yellowgreen;
 }
-::placeholder{
+
+::placeholder {
   color: red;
 }
-main{
+
+main {
   text-align: center;
+
 }

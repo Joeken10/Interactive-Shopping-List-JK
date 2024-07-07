@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const addButton = document.getElementById('add-button');
   const clearButton = document.getElementById('clear-button');
   const shoppingList = document.getElementById('shopping-list');
-  
+
   let items = [];
 
   // Load items from local storage
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
       saveToLocalStorage();
     } else if (e.target.tagName === 'BUTTON') {
       const index = e.target.dataset.index;
-      const newText = prompt("Edit item:", items[index].text);
+      const newText = prompt("Edit item here:", items[index].text);
       if (newText !== null) {
         items[index].text = newText;
         renderList();
